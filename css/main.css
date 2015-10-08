@@ -1,0 +1,465 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+	width:100%;
+	height: 100%;
+}
+
+body{
+	height: 100%;
+	width:100%;
+	background-color:#10120F;
+	margin: 0;
+	padding:0;
+	font-family: 'Roboto', sans-serif;
+}
+#wrapper{
+
+	display: block;
+	width:1024px;
+	margin: auto;
+	background-color: #D7D7D7;
+}
+
+#wrapper:after{
+
+	display:table;
+	content:"";
+	clear:both;
+
+}
+
+header{
+	height:160px;
+	background-color:black;
+}
+#banner{
+	height:120px;
+	overflow:hidden;
+
+}
+
+#banner img{
+	width:100%;
+	height:120px;
+
+}
+header nav{
+	height:40px;
+	background-color:black;
+
+}
+header nav ul:after{
+	display:table;
+	content:"";
+	clear:both;
+
+}
+
+header nav ul{
+	width:80%;
+	margin:auto;
+
+}
+header nav ul li{
+	float:left;
+	text-transform: uppercase;
+	text-align:center;
+	line-height:40px;
+	background-color:black;
+	margin-right:46px;
+	font-family: 'Roboto', sans-serif;
+	font-weight:bold;
+}
+header nav ul li:nth-of-type(7){
+	margin-right:0;
+}
+
+
+
+header nav ul li a{
+	text-decoration:none;
+	color:white;
+}
+
+
+
+#content{
+	width:96%;
+	margin:auto;
+	margin-top:24px;
+}
+
+#content:after{
+	display:table;
+	content:"";
+	clear:both;
+}
+
+#content .main_content{
+	width:68%;
+	float:left;
+}
+
+#content aside{
+	width:32%;
+	padding-left:24px;
+	float:left;
+
+}
+
+#content .main_vignette{
+	width:100%;
+	height:300px;
+	background-color:white;
+	border:4px solid seashell;
+	margin-bottom: 4px;
+	position:relative;
+	overflow:hidden;
+	background-image:url("../img/icy.jpeg");
+	background-position: 50% 50%;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+/*#content .main_vignette img{
+	display:block;
+	width:100%;
+	height:auto;
+}*/
+#content .main_vignette .vignette_title_bar h2{
+
+	font-size:1.3rem;
+	color:white;
+	text-transform: uppercase;
+	font-weight:bold;
+	font-family: 'Roboto', sans-serif;
+
+
+}
+
+#content .main_vignette .vignette_title_bar h3{
+
+	font-family: 'Roboto', sans-serif;
+	color:white;
+
+}
+
+.vignette_title_bar{
+	padding:10px;
+	display:block;
+	position:absolute;
+	bottom:0;
+	background-color:rgba(0, 0, 0, 0.8);;
+	height:60px;
+	width:100%;
+
+}
+
+#content .second_vignette{
+	margin-top:20px;
+	width:48.5%;
+	height:220px;
+	border:4px solid seashell;
+	float:left;
+	position:relative;
+	background-position: 50% 50%;
+	background-size: 120% auto;
+	background-repeat: no-repeat;
+}
+
+.second1{
+	background-image:url("../img/dino.png");
+}
+
+.second2{
+	background-image:url("../img/green.jpeg");
+}
+
+.second3{
+	background-image:url("../img/sand.jpeg");
+}
+
+.second4{
+	background-image:url("../img/fight.jpeg");
+}
+#content .second_vignette .vignette_title_bar h2{
+
+	font-size:1.1rem;
+	color:white;
+	text-transform: uppercase;
+	font-weight:bold;
+	font-family: 'Roboto', sans-serif;
+
+
+}
+
+#content .second_vignette .vignette_title_bar h3{
+	font-size:1rem;
+	font-family: 'Roboto', sans-serif;
+	color:white;
+
+}
+
+.margin_right2{
+	margin-right:3%;
+}
+
+.wrapper_third_vignette{
+	width:100%;
+	background-color:white;
+	float:left;
+	margin-top:24px;
+	margin-bottom:30px;
+	padding:14px;
+}
+.wrapper_third_vignette:after{
+	display:table;
+	content: "";
+	clear: both;
+}
+
+.wrapper_third_vignette h2{
+	display:block;
+	margin-top:10px;
+	color:#C92f21;
+	font-size:1.4rem;
+	text-transform: uppercase;
+	font-weight:bold;
+	font-family: 'Roboto', sans-serif;
+}
+.wrapper_third_vignette h2:first-letter{
+	font-size:2rem;
+}
+
+.wrapper_third_vignette hr{
+	display:block;
+	border:2.6px solid #10120F;
+	width:100%;
+}
+.third_vignette{
+	width:100%;
+	height:180px;
+	margin-bottom: 18px;
+
+}
+
+.third_vignette_img{
+	width:50%;
+	background-color:darkslategrey;
+	height:180px;
+	float:left;
+	background-position: 50% 50%;
+	background-size: 120% auto;
+	background-repeat: no-repeat;
+
+}
+.third1{
+	background-image:url("../img/green.jpeg");
+}
+
+.third2{
+	background-image:url("../img/fight.jpeg");
+}
+
+.third3{
+	background-image:url("../img/sand.jpeg");
+}
+
+.third_vignette_content{
+	width:50%;
+	height:180px;
+	float:left;
+	position:relative;
+	padding:12px;
+	padding-top:8px;
+}
+
+.third_vignette_read_more{
+	position:absolute;
+	bottom:10px;
+	right:10px;
+	font-size:2rem;
+
+}
+.third_vignette_content hr{
+	display:block;
+	border:2.2px solid grey;
+	position:absolute;
+	bottom:0px;
+	width:92%;
+}
+
+.third_vignette_content h2{
+	font-size:1.1rem;
+	color:black;
+	text-transform: uppercase;
+	font-weight:bold;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom:10px;
+}
+
+.third_vignette_content h2:first-letter{
+	font-size:1.1rem;
+}
+.third_vignette h3{
+	font-size:1rem;
+	font-family: 'Roboto', sans-serif;
+	color:black;
+
+}
+
+#content .news_vignette{
+	width:100%;
+	height:240px;
+	background-color:white;
+	border:4px solid seashell;
+	margin-bottom: 20px;
+	padding:12px;
+	padding-top:8px;
+
+}
+#content .news_vignette:after{
+	display:table;
+	content:"";
+	clear:both;
+}
+
+#content .news_vignette h2{
+	font-size:1.1rem;
+	color:#C92f21;
+	text-transform: uppercase;
+	font-weight:bold;
+	font-family: 'Roboto', sans-serif;
+	display:block;
+	float:left;
+
+}
+
+#content .news_vignette hr{
+	display:block;
+	border:2.2px solid #10120F;
+	float:left;
+}
+
+#content .news_vignette hr:first-of-type{
+	margin-right:5%;
+	width:14%;
+}
+
+#content .news_vignette hr:nth-of-type(2){
+	margin-left:5%;
+	width:54%;
+}
+
+#content .last_forum_threads{
+	width:100%;
+	height:240px;
+	background-color:white;
+	border:4px solid seashell;
+	padding:12px;
+	padding-top:8px;
+
+}
+
+#content .last_forum_threads:after{
+	display:table;
+	content:"";
+	clear:both;
+}
+
+#content .last_forum_threads h2{
+	font-size:1.1rem;
+	color:grey;
+	text-transform: uppercase;
+	font-weight:bold;
+	font-family: 'Roboto', sans-serif;
+	display:block;
+	float:left;
+
+}
+
+#content .last_forum_threads hr{
+	display:block;
+	border:2.2px solid #10120F;
+	float:left;
+}
+
+#content .last_forum_threads hr:first-of-type{
+	margin-right:5%;
+	width:14%;
+}
+
+#content .last_forum_threads hr:nth-of-type(2){
+	margin-left:5%;
+	width:50%;
+}
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(../img/ajax.loader.gif) center no-repeat #10120F;
+}
+footer{
+	height:160px;
+	background-color:black;
+}
