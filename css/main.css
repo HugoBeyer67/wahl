@@ -112,6 +112,9 @@ header nav ul:first-child>li>a{
 	color:white;
 	list-style-type: none;
 }
+.insideUl{
+	display: none;
+}
 
 .insideUl li{
 	background-color: white;
