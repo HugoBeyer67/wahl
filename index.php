@@ -9,8 +9,12 @@
 	<script src="js/main.js"></script>
 </head>
 <body>
-	<div id="wrapper">
-        <h1>Salut :D</h1>
+	<header>
+	</header>
+	<div class="contenu">
+
 	</div>
+	<footer>
+	</footer>
 </body>
 </html>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
 	<meta charset="UTF-8">
 	<title>Contact</title>
@@ -9,8 +9,12 @@
 	<script src="js/main.js"></script>
 </head>
 <body>
-	<div id="wrapper">
+	<header>
+	</header>
+	<div class="contenu">
 
 	</div>
+	<footer>
+	</footer>
 </body>
 </html>
