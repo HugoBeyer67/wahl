@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title></title>
+	<title>Contact</title>
 	<link rel="stylesheet" href="css/knacss.css">
 	<link rel="stylesheet" href="css/main.css">
 	<script src="js/jquery.js"></script>

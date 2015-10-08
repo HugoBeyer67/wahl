@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
 	<meta charset="UTF-8">
-	<title>Title</title>
+	<title>Accueil</title>
 	<link rel="stylesheet" href="css/knacss.css">
 	<link rel="stylesheet" href="css/main.css">
 	<script src="js/jquery.js"></script>
