@@ -94,24 +94,16 @@ header nav ul:first-child{
 	font-size: 2rem;
 }
 
-.insideUl li{
-	background-color: white;
-	color:black;
-}
 
-.insideUl li a{
-	font-size: 1rem;
-	text-decoration:none;
-	color:black;
-}
 
 
 
 header nav ul:first-child>li{
 	float:left;
-	background-color: red;
-	padding:10px;
+	width:160px;
 	margin-right:40px;
+	border:2px solid white;
+	text-align: center;
 
 }
 
@@ -119,4 +111,16 @@ header nav ul:first-child>li>a{
 	text-decoration:none;
 	color:white;
 	list-style-type: none;
+}
+
+.insideUl li{
+	background-color: white;
+	color:black;
+	padding-left:2px;
+}
+
+.insideUl li a{
+	font-size: 1rem;
+	text-decoration:none;
+	color:black;
 }
