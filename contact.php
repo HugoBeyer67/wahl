@@ -26,7 +26,7 @@
 	</header>
 
 	<div class="contenu">
-        <p>test</p>
+
 	</div>
 	<footer>
 	</footer>
