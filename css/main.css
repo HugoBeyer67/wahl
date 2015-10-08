@@ -28,13 +28,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
 body {
 	line-height: 1;
 }
@@ -64,4 +57,66 @@ body{
 	width:100%;
 	margin: 0;
 	padding:0;
+}
+
+header{
+	width:100%;
+	background-color: grey;
+	color:white;
+}
+
+header nav{
+	width:80%;
+
+}
+
+header nav:after{
+	display:table;
+	content:"";
+	clear:both;
+}
+header h1{
+	display: block;
+	float:left;
+	width:20%;
+	padding:40px;
+	font-size: 3rem;
+}
+
+header h1 a{
+	color:white;
+	text-decoration: none;
+}
+header nav ul:first-child{
+	display: block;
+	float:left;
+	padding:40px;
+	font-size: 2rem;
+}
+
+.insideUl li{
+	background-color: white;
+	color:black;
+}
+
+.insideUl li a{
+	font-size: 1rem;
+	text-decoration:none;
+	color:black;
+}
+
+
+
+header nav ul:first-child>li{
+	float:left;
+	background-color: red;
+	padding:10px;
+	margin-right:40px;
+
+}
+
+header nav ul:first-child>li>a{
+	text-decoration:none;
+	color:white;
+	list-style-type: none;
 }
