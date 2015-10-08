@@ -19,7 +19,7 @@
 	</header>
 
 	<div class="contenu">
-
+    <b>Test depuis l'extension brackets</b>
 	</div>
 	<footer>
 	</footer>
