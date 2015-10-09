@@ -19,7 +19,11 @@
 	</header>
 
 	<div class="contenu">
+<<<<<<< HEAD
         <p>Test de modif pour ton pull</p>
+=======
+		Ca marche depuis atom! 
+>>>>>>> origin/develop
 	</div>
 	<footer>
 	</footer>
