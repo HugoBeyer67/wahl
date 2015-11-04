@@ -8,16 +8,7 @@
 	<script src="js/main.js"></script>
 </head>
 <body>
-	<header>
-		<h1><a href="index.php">BANG</a></h1>
-		<nav>
-			<ul>
-				<li><a href="index.php">Accueil</a></li>
-				<li><a href="contact.php">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
-
+<?php include("include/header.php"); ?> 
       <h2>Liste de films</a></h2>
     <ul>
         <li>Realisateur : David Lynch
@@ -35,7 +26,7 @@
         </li>
     </ul>
     <a href="index.php#after-tab">Retour apres le tableau de films</a>
-    <footer>
-	</footer>
+    
+    <?php include("include/footer.php"); ?> 
 </body>
 </html>
