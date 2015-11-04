@@ -126,6 +126,10 @@ header nav ul:first-child>li>a{
 ul li:hover{
 	cursor: pointer;
 }
+
+.selected{
+	background-color: #27ae60!important;
+}
 .insideUl{
 	display:none;
 	position: relative;
@@ -137,7 +141,6 @@ ul li:hover{
 
 .insideUl li{
 	background-color:#34495e ;
-	color:white;
 	padding-left:2px;
 	list-style-type:none;
 	padding:4px 2px 4px 2px
@@ -149,7 +152,7 @@ ul li:hover{
 .insideUl li a{
 	font-size: 1rem;
 	text-decoration:none;
-	color:black;
+	color:white;
 }
 
 

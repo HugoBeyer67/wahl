@@ -6,8 +6,8 @@
       <li id="creations"> 
         <a href="creations.php">Creations</a>
         <ul class="insideUl">
-          <li tabindex="-1">creation1</li>
-          <li tabindex="-1">creation2</li>
+          <li tabindex="-1"><a href="liste.php">ListeTest</a></li>
+          <li tabindex="-1"><a href="contact.php">ContactTest</a></li>
           <li tabindex="-1">creation1</li>
           <li tabindex="-1">creation2</li>
           <li tabindex="-1">creation1</li>
