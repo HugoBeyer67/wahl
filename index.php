@@ -19,7 +19,7 @@
 	</header>
 
 	<div class="contenu">
-        <?php include("table.php"); ?>     
+        <?php include("table.php"); ?>    
 	</div>
 	<footer>
 	</footer>
