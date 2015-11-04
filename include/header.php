@@ -3,7 +3,17 @@
   <nav>
     <ul>
       <li><a href="index.php">Accueil</a></li>
-      <li><a href="creations.php">Creations</a></li>
+      <li id="creations"> 
+        <a href="creations.php">Creations</a>
+        <ul class="insideUl">
+          <li>creation1</li>
+          <li>creation2</li>
+          <li>creation1</li>
+          <li>creation2</li>
+          <li>creation1</li>
+          <li>creation2</li>
+        </ul>
+      </li>
       <li><a href="contact.php">Contact</a></li>
     </ul>
   </nav>

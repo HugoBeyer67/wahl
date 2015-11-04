@@ -1,5 +1,10 @@
 $( document ).ready(function() {
-		$("header nav ul:first-child li:first-of-type").focus(function(){
-			alert("focus!");
+		$("#creations").mouseenter(function(){
+			console.log("enter");
+			$(".insideUl").show();
+		});
+		$("#creations").mouseleave(function(){
+			console.log("leave");
+			$(".insideUl").hide();
 		});
 });

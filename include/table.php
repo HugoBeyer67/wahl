@@ -1,3 +1,4 @@
+<h2><a href="liste.php">Liste de substitution</a></h2>
 <table summary="Tableau présentant les oeuvres de plusieurs réalisateurs de films, plusieurs oeuvres par réaliasateur sont possibles, accompagnés de leur date de réalisation, titre et genre filmique.">
       <caption>Liste non exhaustive de films</caption>
       <tbody>
@@ -20,9 +21,4 @@
         </tr>
       </tbody>
     </table>
-    <br>
     <span id="after-tab"> </span>
-    <br>
-    <br>
-    <br>
-      <h2><a href="liste.php">Liste de substitution</a></h2>
