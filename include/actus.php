@@ -19,7 +19,7 @@
                     <br>
                     <br>
                     <p>".$desc."</p>
-                    <a href='".$link."'>Lire l'article (nouvel onglet)</a>
+                    <a href='".$link."' target='_blank'>Lire l'article (nouvel onglet)</a>
                 </article>";
                 
             }

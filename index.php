@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="css/main.css">
 	<script src="js/jquery.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/table.js"></script>
 </head>
 <body>
 	<?php include("include/header.php"); ?>  
