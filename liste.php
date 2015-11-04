@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
 	<meta charset="UTF-8">
-	<title>Accueil</title>
+	<title>Liste de films</title>
 	<link rel="stylesheet" href="css/main.css">
 	<script src="js/jquery.js"></script>
 	<script src="js/main.js"></script>
@@ -18,7 +18,7 @@
 		</nav>
 	</header>
 
-      <h2>Liste de substitution</a></h2>
+      <h2>Liste de films</a></h2>
     <ul>
         <li>Realisateur : David Lynch
             <ul>
@@ -34,7 +34,7 @@
             </ul>
         </li>
     </ul>
-    <a href="index.php#after-tab">Retour apres le tableau</a>
+    <a href="index.php#after-tab">Retour apres le tableau de films</a>
     <footer>
 	</footer>
 </body>

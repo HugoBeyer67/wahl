@@ -87,8 +87,9 @@ header h1 a{
 header nav ul:first-child{
 	display: block;
 	float:left;
-	font-size: 2rem;
+	font-size: 1.4rem;
 	list-style-type: none;
+	margin-top:40px;
 }
 
 
