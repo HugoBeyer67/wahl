@@ -25,4 +25,4 @@
     <br>
     <br>
     <br>
-      <h2><a href="liste.html">Liste de substitution</a></h2>
+      <h2><a href="liste.php">Liste de substitution</a></h2>
