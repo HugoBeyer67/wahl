@@ -22,6 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+    box-sizing: border-box;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -54,6 +55,7 @@ body{
 	width:100%;
 	margin: 0;
 	padding:0;
+    font-family: arial, sans-serif;
 }
 
 header{
@@ -128,8 +130,10 @@ header nav ul:first-child>li>a{
 }
 
 
-
-
+/* - CONTENU - */
+.contenu{
+    position:relative;
+}
 
 
 /* - STYLE DU TABLEAU ET LISTE - */
@@ -149,3 +153,59 @@ table th{
     background: grey;
     color:white;
 }
+
+/* - STYLE DU FEED RSS - */
+
+#feed{
+    position:absolute;
+    top:25px;
+    right:20px;
+    width:350px;
+    background-color : #e4e4e4;
+}
+#feed h2{
+    text-decoration: underline;
+    font-size:20px;
+    text-align: center
+}
+#feed small{
+    font-size:11px;
+    line-height:22px;
+}
+#feed article{
+    padding:10px;
+}
+#feed article h3{
+    font-size:16px;
+    font-weight: bold;
+    margin-top:10px;
+}
+#feed a{
+    float: right;
+    font-size: 14px;
+}
+#feed a:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -12,6 +12,7 @@
 
 	<div class="contenu">
         <?php include("include/table.php"); ?>    
+        <?php include("include/actus.php"); ?>    
 	</div>
 	<?php include("include/footer.php"); ?>  
 </body>
