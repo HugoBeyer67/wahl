@@ -49,17 +49,7 @@ $( document ).ready(function() {
 						$(".insideUl li:nth-of-type("+currentLi+")").addClass("selected").focus();
 
 	        break;
-					case 13: // ENTER
-							if($(".insideUl li").hasClass("selected")){
-								e.preventDefault();
-								thisA=$(".insideUl").find(".selected a");
-								thisAHref=thisA.attr('href');
-								window.location = thisAHref;
-							}
-							else{
-								console.log($(':focus'));
-							}
-					break;
+
 
         default: return; // exit this handler for other keys
     }
