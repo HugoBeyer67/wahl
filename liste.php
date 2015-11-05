@@ -25,7 +25,7 @@
             </ul>
         </li>
     </ul>
-    <a href="index.php#after-tab">Retour apres le tableau de films</a>
+    <a href="table_page.php#after-tab">Retour apres le tableau de films</a>
     
     <?php include("include/footer.php"); ?> 
 </body>

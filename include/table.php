@@ -19,13 +19,13 @@
         <tr>
           <th id="l2c1" headers="l1c1" rowspan="2">David Lynch</th>
           <th id="l2c2" headers="l1c2 l2c1">Lost Highway</th>
-          <td id=1 headers="l1c3 l2c1 l2c2"><?php echo $tableau->dataTable[0]; ?></td>
-          <td id=2 headers="l1c4 l2c1 l2c2"><?php echo $tableau->dataTable[1]; ?></td>
+          <td tabindex="40" id=1 headers="l1c3 l2c1 l2c2"><?php echo $tableau->dataTable[0]; ?></td>
+          <td tabindex="50" id=2 headers="l1c4 l2c1 l2c2"><?php echo $tableau->dataTable[1]; ?></td>
         </tr>
         <tr>
           <th id="l3c2" headers="l1c2 l2c1">Blue Velvet</th>
-          <td id=3 headers="l1c3 l2c1 l3c2"><?php echo $tableau->dataTable[2]; ?></td>
-          <td id=4 headers="l1c4 l2c1 l3c2"><?php echo $tableau->dataTable[3]; ?></td>
+          <td tabindex="60" id=3 headers="l1c3 l2c1 l3c2"><?php echo $tableau->dataTable[2]; ?></td>
+          <td tabindex="70" id=4 headers="l1c4 l2c1 l3c2"><?php echo $tableau->dataTable[3]; ?></td>
         </tr>
       </tbody>
     </table>
