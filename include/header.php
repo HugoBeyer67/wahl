@@ -1,5 +1,5 @@
 <header>
-  <h1><a href="index.php">BANG</a></h1>
+  <h1><a tabindex="-1" href="index.php">BANG</a></h1>
   <nav>
     <ul>
       <li><a tabindex="10" href="index.php">Accueil</a></li>

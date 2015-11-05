@@ -11,7 +11,14 @@
 	<?php include("include/header.php"); ?>  
 
 	<div class="contenu">
-        Page création  
+		<p>
+			Bienvenu sur la page création, retrouvez ci dessous un accès à toutes nos créations!
+		</p>
+    <ul>
+			<li><a tabindex="40" href="table_page.php">Nos films</a></li>
+			<li><a tabindex="50" href="contact.php">Contact</a></li>
+		</ul>
+		
 	</div>
 	<?php include("include/footer.php"); ?>  
 </body>

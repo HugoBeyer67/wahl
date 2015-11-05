@@ -32,7 +32,7 @@ $( document ).ready(function() {
 						currentLi--;
 					}
 					$(".insideUl li").removeClass("selected");
-					$(".insideUl li:nth-of-type("+currentLi+")").addClass("selected");
+					$(".insideUl li:nth-of-type("+currentLi+")").addClass("selected").focus();
 					
 	        break;
 
@@ -46,7 +46,7 @@ $( document ).ready(function() {
 							currentLi++;
 						}
 						$(".insideUl li").removeClass("selected");
-						$(".insideUl li:nth-of-type("+currentLi+")").addClass("selected");
+						$(".insideUl li:nth-of-type("+currentLi+")").addClass("selected").focus();
 
 	        break;
 					case 13: // ENTER
