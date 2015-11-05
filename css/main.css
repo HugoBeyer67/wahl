@@ -111,6 +111,9 @@ header nav ul:first-child>li{
 header nav ul:first-child>li a:focus{
 	background-color:orange;
 }
+header nav .insideUl a:focus{
+	background-color: #27ae60!important;
+}
 header nav ul:first-child>li:first-of-type{
 	left:0;
 }
@@ -175,7 +178,7 @@ ul li:hover{
 
 #main{
 	float:left;
-	width:896px;
+	width:70%;
 }
 
 
@@ -204,10 +207,7 @@ table th{
 
 #feed{
     float:left;
-		width:20%;
-    top:25px;
-    right:20px;
-    width:350px;
+    width:30%;
     background-color : #e4e4e4;
 }
 #feed h2{
