@@ -50,13 +50,15 @@ $( document ).ready(function() {
 
 	        break;
 					case 13: // ENTER
-							e.preventDefault();
-							thisA=$(".insideUl").find(".selected a");
-							thisAHref=thisA.attr('href');
-							console.log(thisAHref);
-							window.location = thisAHref;
-
-
+							if($(".insideUl li").hasClass("selected")){
+								e.preventDefault();
+								thisA=$(".insideUl").find(".selected a");
+								thisAHref=thisA.attr('href');
+								window.location = thisAHref;
+							}
+							else{
+								console.log($(':focus'));
+							}
 					break;
 
         default: return; // exit this handler for other keys
