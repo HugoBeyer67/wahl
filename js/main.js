@@ -13,13 +13,17 @@ $( document ).ready(function() {
 			i=1;
 			$(".insideUl").hide();
 			$(".insideUl").removeClass("insideMenuShown");
+			if($(".insideUl li").hasClass("selected")){
+				$(".insideUl li").removeClass("selected");
+				currentLi=0;
+			}
 		});
 		
 		//gestion des keydowns 
-		$(document).keydown(function(e) {
+		$("nav").keydown(function(e) {
 			
     	switch(e.which) {
-
+					
 	        case 38: // up
 					if(currentLi-1==0){
 						currentLi=1;
@@ -46,11 +50,12 @@ $( document ).ready(function() {
 
 	        break;
 					case 13: // ENTER
-						e.preventDefault();
-						thisA=$(".insideUl").find(".selected a");
-						thisAHref=thisA.attr('href');
-						console.log(thisAHref);
-						window.location = thisAHref;
+							e.preventDefault();
+							thisA=$(".insideUl").find(".selected a");
+							thisAHref=thisA.attr('href');
+							console.log(thisAHref);
+							window.location = thisAHref;
+
 
 					break;
 

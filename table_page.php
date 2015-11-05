@@ -12,10 +12,13 @@
 	<?php include("include/header.php"); ?>  
 
 	<div class="contenu">
-        <div id="main">
-					Page contact
+  
+	</div>
+	<div class="contenu">
+				<div id="main">
+					<?php include("include/table.php"); ?>    
 				</div> 
-        <?php include("include/actus.php"); ?>    
+				<?php include("include/actus.php"); ?>    
 	</div>
 	<?php include("include/footer.php"); ?>  
 </body>

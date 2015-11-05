@@ -107,6 +107,10 @@ header nav ul:first-child>li{
 	text-align: center;
 
 }
+
+header nav ul:first-child>li a:focus{
+	background-color:orange;
+}
 header nav ul:first-child>li:first-of-type{
 	left:0;
 }
@@ -157,8 +161,21 @@ ul li:hover{
 
 
 /* - CONTENU - */
+
 .contenu{
+		width:100%;
     position:relative;
+		padding:24px;
+}
+.contenu:after{
+	display: table;
+	content:"";
+	clear:both;
+}
+
+#main{
+	float:left;
+	width:896px;
 }
 
 
@@ -186,7 +203,8 @@ table th{
 /* - STYLE DU FEED RSS - */
 
 #feed{
-    position:absolute;
+    float:left;
+		width:20%;
     top:25px;
     right:20px;
     width:350px;

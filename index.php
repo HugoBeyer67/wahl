@@ -12,7 +12,9 @@
 	<?php include("include/header.php"); ?>  
 
 	<div class="contenu">
-        <?php include("include/table.php"); ?>    
+        <div id="main">
+					Bienvenu sur BANG.fr, BANG, l'agence web incontournable de Haguenau !
+				</div> 
         <?php include("include/actus.php"); ?>    
 	</div>
 	<?php include("include/footer.php"); ?>  
