@@ -187,14 +187,26 @@ ul li:hover{
 
 /* - STYLE DU TABLEAU ET LISTE - */
 
+#alt-tab{
+	display:block;
+	margin-bottom:20px;
+	width:auto;
+}
+#alt-tab:focus{
+	color:red;
+}
+
 table{
-    font-size:14px;
+    font-size:1rem;
     margin:50px 0px 15px 50px;;
 }
 
 table td{
     border: 1px solid black;
     padding:5px;
+}
+table td:focus{
+    border: 2px solid red;
 }
 table th{
     border: 1px solid white;
@@ -212,24 +224,24 @@ table th{
 }
 #feed h2{
     text-decoration: underline;
-    font-size:20px;
+    font-size:1.5rem;
     text-align: center
 }
 #feed small{
-    font-size:11px;
+    font-size:0.7rem;
     line-height:22px;
 }
 #feed article{
     padding:10px;
 }
 #feed article h3{
-    font-size:16px;
+    font-size:1.1rem;
     font-weight: bold;
     margin-top:10px;
 }
 #feed a{
     float: right;
-    font-size: 14px;
+    font-size: 1rem;
 }
 #feed a:after{
     content: " ";
