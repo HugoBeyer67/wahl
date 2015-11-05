@@ -30,16 +30,12 @@
 		function chargeDatabaseData(){
 			
 			try {
-					if($wantedPost==null){
-						//display all
 						$select="SELECT * FROM tableau";
 						$result = $this->connexion->query($select);
 						while ($objet = $result->fetch(PDO::FETCH_OBJ)) {
 							array_push($this->dataTable, $objet->content);
-						}						
-					}
-					//$result = $this->connexion->query("SELECT * FROM data LIMIT 10;SELECT nom FROM COM INNER JOIN data ON COM.id=data.id_com WHERE id_com=COM.id ");
-
+						}
+												
 			} catch (Exception $e) {
 					print("Erreur : " . $e->getMessage() . "<br/>");
 					echo $select;
