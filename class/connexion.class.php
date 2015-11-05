@@ -10,7 +10,7 @@ private function __construct() {
 
 try {
 // assign PDO object to db variable
-self::$db = new PDO( "mysql:host=localhost;dbname=wahl","root",'Z1$a9jU', array( PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8" ));
+self::$db = new PDO( "mysql:host=localhost;dbname=wahl","root",'', array( PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8" ));
 self::$db->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 }
 catch (PDOException $e) {
