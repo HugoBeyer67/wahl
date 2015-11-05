@@ -6,7 +6,8 @@
     //var_dump($tableau->dataTable);
  ?>
 
-<h2><a href="liste.php">Liste de substitution</a></h2>
+<h2><a tabindex="39" href="liste.php">Liste de substitution</a></h2>
+<p><strong>Conseil :</strong> Vous pouvez modifier les valeurs des case du tableau (hors entêtes) en double cliquant sur celles ci ou en appuyant sur MAJ une fois sélectionnée. Appuyez sur la touche entrée pour valider votre modification.</p>
 <table summary="Tableau présentant les oeuvres de plusieurs réalisateurs de films, plusieurs oeuvres par réaliasateur sont possibles, accompagnés de leur date de réalisation, titre et genre filmique." id="megaTab">
       <caption>Liste non exhaustive de films</caption>
       <tbody>
