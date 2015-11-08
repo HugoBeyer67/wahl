@@ -11,23 +11,27 @@
 </head>
 <body>
 <?php include("include/header.php"); ?> 
-      <h2>Liste de films</a></h2>
-    <ul>
-        <li>Realisateur : David Lynch
-            <ul>
-                <li>Titre du film : Lost Highway</li>
-                <li>Année de réalisation : 1997</li>
-                <li>Genre : Thriller psychologique</li>
-            </ul>
-            <br>
-            <ul>
-                <li>Titre du film : Blue Velvet</li>
-                <li>Année de réalisation : 1987</li>
-                <li>Genre : Thriller</li>
-            </ul>
-        </li>
-    </ul>
-    <a href="table_page.php#after-tab">Retour apres le tableau de films</a>
+<div class="contenu">
+    <div id="main">
+			<h2>Liste de films</a></h2>
+				<ul>
+						<li>Realisateur : David Lynch
+								<ul>
+										<li>Titre du film : Lost Highway</li>
+										<li>Année de réalisation : 1997</li>
+										<li>Genre : Thriller psychologique</li>
+								</ul>
+								<br>
+								<ul>
+										<li>Titre du film : Blue Velvet</li>
+										<li>Année de réalisation : 1987</li>
+										<li>Genre : Thriller</li>
+								</ul>
+						</li>
+				</ul>
+		<a href="table_page.php#after-tab">Retour apres le tableau de films</a>
+    </div> 
+</div>
     
     <?php include("include/footer.php"); ?> 
 </body>
