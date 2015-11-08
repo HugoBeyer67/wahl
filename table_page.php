@@ -12,10 +12,6 @@
 </head>
 <body>
 	<?php include("include/header.php"); ?>  
-
-	<div class="contenu">
-  
-	</div>
 	<div class="contenu">
 				<div id="main">
 					<?php include("include/table.php"); ?>    
