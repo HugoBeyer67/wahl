@@ -22,10 +22,13 @@ header nav{
 }
 
 header nav ul:first-child{
-	font-size: 2.5rem;
+	font-size: 2.8rem;
 }
 header h1{
-	font-size: 2.5rem;
+	font-size: 2.8rem;
+}
+header nav ul:first-child>li:nth-of-type(3){
+	margin-left: 40px;
 }
 
 
