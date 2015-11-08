@@ -32,7 +32,8 @@ $( document ).ready(function() {
 						currentLi--;
 					}
 					$(".insideUl li").removeClass("selected");
-					$(".insideUl li:nth-of-type("+currentLi+")").addClass("selected").focus();
+					$(".insideUl li:nth-of-type("+currentLi+")").addClass("selected active").focus();
+					console.log($(document.activeElement));
 					
 	        break;
 
@@ -46,10 +47,21 @@ $( document ).ready(function() {
 							currentLi++;
 						}
 						$(".insideUl li").removeClass("selected");
-						$(".insideUl li:nth-of-type("+currentLi+")").addClass("selected").focus();
+						$(".insideUl li:nth-of-type("+currentLi+")").addClass("selected active").focus();
+						console.log($(document.activeElement));
 
 	        break;
-
+					/*case 13: // ENTER
+							if($(".insideUl li").hasClass("selected")){
+								e.preventDefault();
+								thisA=$(".insideUl").find(".selected a");
+								thisAHref=thisA.attr('href');
+								window.location = thisAHref;
+							}
+							else{
+								console.log($(':focus'));
+							}
+					break;*/
 
         default: return; // exit this handler for other keys
     }

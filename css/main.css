@@ -59,7 +59,8 @@ body{
 }
 
 header{
-	width:100%;
+	margin:auto;
+	width:1200px;
 	background-color: grey;
 	color:white;
 }
@@ -166,9 +167,10 @@ ul li:hover{
 /* - CONTENU - */
 
 .contenu{
-		width:100%;
+		width:1200px;
     position:relative;
 		padding:24px;
+		margin:auto;
 }
 .contenu:after{
 	display: table;
@@ -179,6 +181,13 @@ ul li:hover{
 #main{
 	float:left;
 	width:70%;
+}
+
+/* FOOTER */
+
+footer{
+	width:1200px;
+	margin:auto;
 }
 
 
