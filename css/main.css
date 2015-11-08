@@ -188,10 +188,36 @@ ul li:hover{
 footer{
 	width:1200px;
 	margin:auto;
+	background-color: grey;
+	color:white;
+	height:100px;
 }
 
+footer:after{
+	display:table;
+	content:"";
+	clear:both;
+}
 
+.footer_left{
+	width:50%;
+	float:left;
+	padding-top:12px;
+}
 
+.footer_left ul li{
+	list-style-type: none;
+}
+.footer_left ul li a{
+	color:white;
+	text-decoration: underline;
+}
+
+.footer_right{
+	width:50%;
+	float:left;
+	line-height: 80px;
+}
 
 
 /* - STYLE DU TABLEAU ET LISTE - */
