@@ -67,4 +67,5 @@ $( document ).ready(function() {
     }
     e.preventDefault(); // prevent the default action (scroll / move caret)
 });
+console.log(WURFL.form_factor);
 });

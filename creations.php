@@ -5,16 +5,18 @@
 	<title>Créations</title>
 	<link rel="stylesheet" href="css/main.css">
 	<script src="js/jquery.js"></script>
+	<script type="text/javascript" src="//wurfl.io/wurfl.js"></script>
+	<?php include("include/device_script.php"); ?>  
 	<script src="js/main.js"></script>
 </head>
 <body>
 	<?php include("include/header.php"); ?>  
 
 	<div class="contenu">
-		<p>
+		<p class="creation_intro">
 			Bienvenu sur la page création, retrouvez ci dessous un accès à toutes nos créations!
 		</p>
-    <ul>
+    <ul class="creation_list">
 			<li><a tabindex="40" href="table_page.php">Nos films</a></li>
 			<li><a tabindex="50" href="contact.php">Contact</a></li>
 		</ul>

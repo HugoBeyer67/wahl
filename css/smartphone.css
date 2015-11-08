@@ -1,0 +1,87 @@
+
+.contenu{
+	width:100%;
+	padding:85px;
+}
+
+.contenu .creation_intro{
+	font-size: 2rem;
+}
+
+.contenu .creation_list{
+	font-size: 3rem;
+}
+header{
+	width:100%;
+	height:180px;
+	line-height: 90px;
+}
+
+header nav{
+	height:100%;
+}
+
+header nav ul:first-child{
+	font-size: 2.5rem;
+}
+header h1{
+	font-size: 2.5rem;
+}
+
+
+footer{
+	width:100%;
+	height:200px;
+	font-size: 3rem;
+	padding:20px;
+}
+
+.footer_right{
+	font-size: 1.8rem;
+	line-height: 160px;
+	
+}
+
+.footer_left{
+	padding-top: 0px;
+}
+
+#feed, #main{
+	float:none;
+	width:100%;
+}
+
+#main p{
+	font-size: 2rem;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+#feed{
+	height:600px;
+	overflow-y: scroll;
+	padding:40px;
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical {
+    width: 12px;
+}
+
+::-webkit-scrollbar:horizontal {
+    height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;  
+    background-color: #ffffff; 
+}

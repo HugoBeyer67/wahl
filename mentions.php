@@ -5,6 +5,8 @@
 	<title>Accueil</title>
 	<link rel="stylesheet" href="css/main.css">
 	<script src="js/jquery.js"></script>
+	<script type="text/javascript" src="//wurfl.io/wurfl.js"></script>
+	<?php include("include/device_script.php"); ?>  
 	<script src="js/main.js"></script>
 	<script src="js/table.js"></script>
 </head>
@@ -70,8 +72,7 @@
 					<p>Utilisateur : Internaute se connectant, utilisant le site susnommé.</p>
 					<p>Informations personnelles : « les informations qui permettent, sous quelque forme que ce soit, directement ou non, l'identification des personnes physiques auxquelles elles s'appliquent » (article 4 de la loi n° 78-17 du 6 janvier 1978).</p>
 
-				</div> 
-        <?php include("include/actus.php"); ?>    
+				</div>  
 	</div>
 	<?php include("include/footer.php"); ?>  
 </body>
