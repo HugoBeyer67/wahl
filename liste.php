@@ -11,7 +11,7 @@
 </head>
 <body>
 <?php include("include/header.php"); ?> 
-<div class="contenu">
+<div class="contenu" role="main">
     <div id="main">
 			<h2>Liste de films</a></h2>
 				<ul>

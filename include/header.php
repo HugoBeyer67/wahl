@@ -1,6 +1,6 @@
-<header>
+<header role="heading">
   <h1><a tabindex="-1" href="index.php">BANG</a></h1>
-  <nav>
+  <nav role="navigation">
     <ul>
       <li><a tabindex="10" href="index.php">Accueil</a></li>
       <li id="creations"> 

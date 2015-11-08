@@ -190,6 +190,13 @@ ul li:hover{
 	margin-bottom: 40px;
 }
 
+#main h1{
+	font-size:1.5rem;
+	text-transform: uppercase;
+	text-align: center;
+	margin:20px;
+}
+
 /* FOOTER */
 
 footer{
@@ -231,7 +238,7 @@ footer:after{
 
 #alt-tab{
 	display:block;
-	margin-bottom:20px;
+	margin:20px 0px;
 	width:auto;
 }
 #alt-tab:focus{

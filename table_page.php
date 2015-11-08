@@ -12,7 +12,7 @@
 </head>
 <body>
 	<?php include("include/header.php"); ?>  
-	<div class="contenu">
+	<div class="contenu" role="main">
 				<div id="main">
 					<?php include("include/table.php"); ?>    
 				</div> 

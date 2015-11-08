@@ -16,7 +16,7 @@
 <body>
 	<?php include("include/header.php"); ?>  
 
-	<div class="contenu">
+	<div class="contenu" role="main">
         <div id="main">
 					<p>
 						Bienvenu sur BANG.fr, BANG, l'agence web incontournable de Haguenau !

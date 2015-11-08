@@ -15,10 +15,10 @@
 
 	<div class="contenu">
         <div id="main">
-					Page contact
+					<?php include("include/contact-form.php"); ?>
 				</div> 
         <?php include("include/actus.php"); ?>    
 	</div>
 	<?php include("include/footer.php"); ?>  
 </body>
-</html>
+</html

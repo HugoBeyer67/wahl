@@ -1,4 +1,4 @@
-<aside id="feed">
+<aside id="feed" role="complementary">
     <h2>Actualités</h2>
     <?php 
         $rss = new DOMDocument();
@@ -13,7 +13,7 @@
                 $link = $node->getElementsByTagName('link')->item(0)->nodeValue;
                 $date = $node->getElementsByTagName('pubDate')->item(0)->nodeValue;
                 $count = $count+1;
-                echo "<article>
+                echo "<article role='article'>
                     <h3>".$title."</h3>
                     <small>Le ".$date."</small>
                     <br>

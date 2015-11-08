@@ -13,7 +13,7 @@
 <body>
 	<?php include("include/header.php"); ?>  
 
-	<div class="contenu">
+	<div class="contenu" role="main">
         <div id="main">
 					SITEMAP
 				</div> 

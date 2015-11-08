@@ -13,7 +13,7 @@
 <body>
 	<?php include("include/header.php"); ?>  
 
-	<div class="contenu">
+	<div class="contenu" role="main">
         <div id="main">
 					<h2>Informations légales</h2>
 					<h3>1. Présentation du site.</h3>
