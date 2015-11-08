@@ -8,6 +8,7 @@
 	<script type="text/javascript" src="//wurfl.io/wurfl.js"></script>
 	<?php include("include/device_script.php"); ?>  
 	<script src="js/main.js"></script>
+	
 	<script src="js/table.js"></script>
 	
 	

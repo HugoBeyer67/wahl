@@ -3,6 +3,7 @@ $( document ).ready(function() {
 	var numLi = $('.insideUl li').length;
 	var currentLi=0;
 	var thisLi=null;
+
 		
 		$('#creations').on('focusin mouseover', function(e) {
 			i=1;

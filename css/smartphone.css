@@ -58,9 +58,12 @@ footer{
 }
 
 #feed{
-	height:600px;
+	height:640px;
 	overflow-y: scroll;
 	padding:40px;
+}
+#feed a{
+	font-size: 2rem;
 }
 
 ::-webkit-scrollbar {

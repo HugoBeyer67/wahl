@@ -61,7 +61,7 @@ body{
 header{
 	margin:auto;
 	width:1200px;
-	background-color: grey;
+	background-color: #093145;
 	color:white;
 }
 
@@ -181,6 +181,12 @@ ul li:hover{
 #main{
 	float:left;
 	width:70%;
+	padding:12px;
+}
+
+#main a{
+	color:#093145;
+	margin-bottom: 40px;
 }
 
 /* FOOTER */
@@ -188,7 +194,7 @@ ul li:hover{
 footer{
 	width:1200px;
 	margin:auto;
-	background-color: grey;
+	background-color: #093145;
 	color:white;
 	height:100px;
 }
@@ -232,7 +238,9 @@ footer:after{
 }
 
 table{
-    font-size:1rem;
+	width:400px;
+	height:auto;
+    font-size:1.4rem;
     margin:50px 0px 15px 50px;;
 }
 caption{
@@ -245,13 +253,17 @@ table td{
     padding:5px;
 }
 table td:focus{
-    border: 2px solid red;
+    border: 2px solid #9A2515;
 }
 table th{
     border: 1px solid white;
     padding:5px;
-    background: grey;
+    background: #093145;
     color:white;
+}
+
+b{
+	font-weight: bold;
 }
 
 /* - STYLE DU FEED RSS - */
@@ -259,7 +271,9 @@ table th{
 #feed{
     float:left;
     width:30%;
-    background-color : #e4e4e4;
+    background-color : #EED369;
+		color:#383C3E;
+		padding:20px;
 }
 #feed h2{
     text-decoration: underline;
@@ -281,6 +295,7 @@ table th{
 #feed a{
     float: right;
     font-size: 1rem;
+		color:#383C3E;
 }
 #feed a:after{
     content: " ";
