@@ -171,6 +171,7 @@ ul li:hover{
     position:relative;
 		padding:24px;
 		margin:auto;
+		background-color: #ecf0f1;
 }
 .contenu:after{
 	display: table;
