@@ -283,6 +283,9 @@ b{
 		color:#383C3E;
 		padding:20px;
 }
+#feed:focus{
+	/*border:none;*/
+}
 #feed h2{
     text-decoration: underline;
     font-size:1.5rem;
@@ -309,4 +312,29 @@ b{
     content: " ";
     display: block;
     clear: both;
+}
+
+
+/* - GALLERIE - */
+
+.gallerie-content p{
+	margin:10px 0px;
+}
+#galerie article{
+	float:left;
+	width:33.3333%;
+	margin:10px 0px;
+}
+#galerie article:nth-child(3n+4){
+	clear:both;
+}
+#galerie article input{
+	width:90%;
+	margin:0px 5%;
+}
+#galerie article label{
+	width:90%;
+	margin:5%;
+	display:block;
+	text-align: center;
 }
