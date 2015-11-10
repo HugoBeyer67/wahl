@@ -9,7 +9,6 @@
         <ul class="insideUl">
           <li><a tabindex="-1" href="table_page.php">Nos Films</a></li>
           <li><a tabindex="-1" href="galerie.php">Galerie Photo</a></li>
-          <li><a tabindex="-1" href="contact.php">Contact</a></li>
         </ul>
       </li>
       <li><a tabindex="30" href="contact.php">Contact</a></li>

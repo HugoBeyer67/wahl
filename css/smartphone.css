@@ -45,7 +45,41 @@ header nav ul:first-child>li:nth-of-type(3){
 
 
 .mobileMenu{
+	margin-left: -40px;
+}
+
+.mobileMenu ul:first-child>li>a{
 	
+	text-decoration:none;
+	color:white;
+	list-style-type: none;
+	font-size: 2rem;
+}
+
+.mobileMenu ul:first-child>li{
+	padding-left: 20px;
+	background-color:#34495e;
+	list-style-type: none;
+}
+
+.mobileMenu ul:first-child>li:nth-of-type(1){
+	height:140px;
+	line-height: 140px;
+}
+.mobileMenu ul:first-child>li:nth-of-type(3){
+	height:140px;
+	line-height: 140px;
+}
+
+.mobileMenu .insideUl{
+	
+}
+.mobileMenu .insideUl>li{
+	background-color: #9A2617!important;
+	padding-left: 40px!important;
+	font-size: 2rem;
+	height:140px;
+	line-height: 140px;
 }
 
 
