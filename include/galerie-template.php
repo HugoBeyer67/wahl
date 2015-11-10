@@ -2,7 +2,7 @@
 <p>Cette galerie d'image à été constituée par les soins de BANG, ce sont tous de vrais chef d'oeuvres !</p>
 <p><b>Conseil : </b>Une fois la première image sélectionnée, il est possible d'accéder a un agrandissement de l'image en cliquant sur l'image ou en appuyant sur la touche entrée. Vous pouvez également passer la galerie avec le racourci clavier MAJ + A</p>
 
-<section tabindex="40" id="galerie">
+<section id="galerie">
 	<article>
 		<a tabindex="41" href="img/alestorm-sunset-of-the-golden-age.jpg"><input type="image" tabindex="-1" src="img/alestorm-sunset-of-the-golden-age.jpg" alt="Alestorm - Sunset Of The Golden Age" aria-label="alestorm" role="input" id="alestorm" name="alestorm"/></a><br>
 		<label aria-labeledby="alestorm" for="alestorm">Alestorm - Sunset Of The Golden Age</label>
