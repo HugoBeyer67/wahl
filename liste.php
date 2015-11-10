@@ -20,7 +20,7 @@
 <div class="contenu" role="main">
     <div id="main">
 			<h2>Liste de films</a></h2>
-				<ul>
+				<ul class="alternate_list">
 						<li>Realisateur : David Lynch
 								<ul>
 										<li>Titre du film : Lost Highway</li>
