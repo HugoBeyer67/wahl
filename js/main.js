@@ -89,6 +89,8 @@ $touchArea.on('touchmove mousemove',function (e){
    
 });
 
+//if on page table list focus on the good element
+
 		
 		$('#creations').on('focusin mouseover', function(e) {
 			i=1;

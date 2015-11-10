@@ -264,7 +264,7 @@ table td{
     padding:5px;
 }
 table td:focus{
-    border: 2px solid #9A2515;
+    border: 4px solid #9A2515;
 }
 table th{
     border: 1px solid white;

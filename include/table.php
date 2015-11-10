@@ -7,7 +7,7 @@
 <p>De par son status de A.T.F (Agence à Tout Faire), Bang a aussi décide de mettre en place un banque d'information concernant les films en tout genres et de toutes époques. Cette banque de donnée est bien sur modifiable par les visiteurs de notre site.</p>
 <a tabindex="38" href="liste.php" id="alt-tab">Liste de substitution au tableau</a>
 <p class="conseil" tabindex="39" role="contentinfo"><b>Conseil :</b> Vous pouvez modifier les valeurs des cases du tableau ci-dessous (hors entêtes) en double cliquant sur celles ci ou en appuyant sur MAJ une fois sélectionnée. Appuyez sur la touche entrée pour valider votre modification.</p>
-<table summary="Tableau modifiable présentant les oeuvres de plusieurs réalisateurs de films, plusieurs oeuvres par réaliasateur sont possibles, accompagnés de leur date de réalisation, titre et genre filmique." id="megaTab">
+<table class="filmTable" summary="Tableau modifiable présentant les oeuvres de plusieurs réalisateurs de films, plusieurs oeuvres par réaliasateur sont possibles, accompagnés de leur date de réalisation, titre et genre filmique." id="megaTab">
       <caption>Liste non exhaustive de films</caption>
       <tbody>
         <tr>
@@ -29,4 +29,4 @@
         </tr>
       </tbody>
     </table>
-    <span id="after-tab"> </span>
+    <span id="after-tab">Nous sommes heureux de vous avoir présenté ces films </span>
