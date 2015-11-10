@@ -20,6 +20,9 @@ $( document ).ready(function() {
 			}
 		});
 		
+		//on tap of #creations prevents default
+		
+		
 		//gestion des keydowns 
 		$("nav").keydown(function(e) {
 			
@@ -32,9 +35,7 @@ $( document ).ready(function() {
 					else{
 						currentLi--;
 					}
-					$(".insideUl li").removeClass("selected");
-					$(".insideUl li:nth-of-type("+currentLi+")").addClass("selected active").focus();
-					console.log($(document.activeElement));
+					$(".insideUl li:nth-of-type("+currentLi+")").find("a").focus();
 					
 	        break;
 
@@ -47,9 +48,9 @@ $( document ).ready(function() {
 						else{
 							currentLi++;
 						}
-						$(".insideUl li").removeClass("selected");
-						$(".insideUl li:nth-of-type("+currentLi+")").addClass("selected active").focus();
-						console.log($(document.activeElement));
+						
+						$(".insideUl li:nth-of-type("+currentLi+")").find("a").focus();
+						//console.log($(document.activeElement));
 
 	        break;
 					/*case 13: // ENTER
@@ -68,5 +69,4 @@ $( document ).ready(function() {
     }
     e.preventDefault(); // prevent the default action (scroll / move caret)
 });
-console.log(WURFL.form_factor);
 });

@@ -68,7 +68,7 @@ function editTab(){
 	$('#megaTab td').bind('touchend', function(e) {
 	  e.preventDefault();
 		$("#megaTab td").on('doubletap', editTab);
-})
+});
 // Détecte si au focus d'une case on appuie sur MAJ, si c'est le cas, il lance la même fonction que au double click (voir juste au dessus)
 	$("#megaTab td").focus().keydown(function(e){
 			if(e.which == 16) {

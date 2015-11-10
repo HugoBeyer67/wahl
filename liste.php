@@ -1,3 +1,8 @@
+<?php 
+    include("class/table.class.php");
+    $tableau= new table();
+    $tableau->chargeDatabaseData();
+ ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -18,14 +23,14 @@
 						<li>Realisateur : David Lynch
 								<ul>
 										<li>Titre du film : Lost Highway</li>
-										<li>Année de réalisation : 1997</li>
-										<li>Genre : Thriller psychologique</li>
+										<li>Année de réalisation : <?php echo $tableau->dataTable[0]; ?></li>
+										<li>Genre : <?php echo $tableau->dataTable[1]; ?></li>
 								</ul>
 								<br>
 								<ul>
 										<li>Titre du film : Blue Velvet</li>
-										<li>Année de réalisation : 1987</li>
-										<li>Genre : Thriller</li>
+										<li>Année de réalisation : <?php echo $tableau->dataTable[2]; ?></li>
+										<li>Genre : <?php echo $tableau->dataTable[3]; ?></li>
 								</ul>
 						</li>
 				</ul>

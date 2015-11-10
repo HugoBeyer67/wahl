@@ -18,7 +18,8 @@
 		</p>
     <ul class="creation_list">
 			<li><a tabindex="40" href="table_page.php">Nos films</a></li>
-			<li><a tabindex="50" href="contact.php">Contact</a></li>
+			<li><a tabindex="50" href="galerie.php">Galerie</a></li>
+			<li><a tabindex="60" href="contact.php">Contact</a></li>
 		</ul>
 		
 	</div>

@@ -1,9 +1,7 @@
 <?php 
     include("class/table.class.php");
     $tableau= new table();
-    //$table->affiche();
     $tableau->chargeDatabaseData();
-    //var_dump($tableau->dataTable);
  ?>
 <h1>Nos Films</h1>
 <p>De par son status de A.T.F (Agence à Tout Faire), Bang a aussi décide de mettre en place un banque d'information concernant les films en tout genres et de toutes époques. Cette banque de donnée est bien sur modifiable par les visiteurs de notre site.</p>
