@@ -18,3 +18,4 @@
 
 <div class="mobileMenu" role=heading>
 </div>
+<?php include_once 'ariane.php'; ?>

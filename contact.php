@@ -11,7 +11,7 @@
 	<script src="js/main.js"></script>
 </head>
 <body>
-	<?php include("include/header.php"); ?>  
+	<?php include("include/header.php"); ?> 
 
 	<div class="contenu">
         <div id="main">

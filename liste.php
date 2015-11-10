@@ -16,7 +16,7 @@
 	<script src="js/main.js"></script>
 </head>
 <body>
-<?php include("include/header.php"); ?> 
+<?php include("include/header.php"); ?>
 <div class="contenu" role="main">
     <div id="main">
 			<h2>Liste de films</a></h2>

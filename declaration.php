@@ -12,7 +12,7 @@
 	<script src="js/table.js"></script>
 </head>
 <body>
-	<?php include("include/header.php"); ?>  
+	<?php include("include/header.php"); ?> 
 
 	<div class="contenu" role="main">
         <div id="main">
