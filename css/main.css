@@ -335,6 +335,9 @@ b{
 	width:90%;
 	margin:0px 5%;
 }
+#galerie article a:focus input{
+	filter: brightness(50%)
+}
 #galerie article label{
 	width:90%;
 	margin:5%;

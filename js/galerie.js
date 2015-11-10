@@ -21,16 +21,16 @@ $( document ).ready(function() {
 
 
 
-	$("#galerie article input").keypress(function(e){
+	/*$("#galerie article input").keypress(function(e){
 		if(e.which == 13) {
 			$(this).keyup(function(){
-				window.location = goodUrl + $(this).attr("src");
+				window.open = goodUrl + $(this).attr("src");
 			});
 		}
 	});	
 	$("#galerie article input").click(function(){
-		window.location = goodUrl + $(this).attr("src");
-	});
+		window.open = goodUrl + $(this).attr("src");
+	});*/
 
 
 });
