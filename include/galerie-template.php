@@ -1,6 +1,6 @@
 <h1>Notre galerie</h1>
 <p>Cette galerie d'image à été constituée par les soins de BANG, ce sont tous de vrais chef d'oeuvres !</p>
-<p><b>Conseil : </b>Une fois la première image sélectionnée, il est possible d'accéder a un agrandissement de l'image en cliquant sur l'image ou en appuyant sur la touche entrée. Vous pouvez également passer la galerie avec le racourci clavier ALT + A</p>
+<p><b>Conseil : </b>Une fois la première image sélectionnée, il est possible d'accéder a un agrandissement de l'image en cliquant sur l'image ou en appuyant sur la touche entrée. Vous pouvez également passer la galerie avec le racourci clavier MAJ + A</p>
 
 <section tabindex="40" id="galerie">
 	<article>
