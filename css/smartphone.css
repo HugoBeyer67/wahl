@@ -1,4 +1,7 @@
 
+
+
+
 .contenu{
 	width:100%;
 	padding:85px;
@@ -15,10 +18,17 @@ header{
 	width:100%;
 	height:180px;
 	line-height: 90px;
+	position: relative;
+}
+header .fa{
+	font-size: 6rem;
+	margin-left: 40px;
+	line-height: 170px;
 }
 
 header nav{
 	height:100%;
+	display: none;
 }
 
 header nav ul:first-child{
@@ -26,9 +36,16 @@ header nav ul:first-child{
 }
 header h1{
 	font-size: 2.8rem;
+	position: absolute;
+	right:10px;
 }
 header nav ul:first-child>li:nth-of-type(3){
 	margin-left: 40px;
+}
+
+
+.mobileMenu{
+	
 }
 
 

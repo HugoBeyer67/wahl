@@ -3,6 +3,91 @@ $( document ).ready(function() {
 	var numLi = $('.insideUl li').length;
 	var currentLi=0;
 	var thisLi=null;
+	
+	//implemente la fonction doubletap et double tap pour mobile en jquery
+			(function($){
+
+				$.event.special.doubletap = {
+					bindType: 'touchend',
+					delegateType: 'touchend',
+
+					handle: function(event) {
+						var handleObj   = event.handleObj,
+								targetData  = jQuery.data(event.target),
+								now         = new Date().getTime(),
+								delta       = targetData.lastTouch ? now - targetData.lastTouch : 0,
+								delay       = delay == null ? 300 : delay;
+
+						if (delta < delay && delta > 30) {
+							targetData.lastTouch = null;
+							event.type = handleObj.origType;
+							['clientX', 'clientY', 'pageX', 'pageY'].forEach(function(property) {
+								event[property] = event.originalEvent.changedTouches[0][property];
+							})
+
+							// let jQuery handle the triggering of "doubletap" event handlers
+							handleObj.handler.apply(this, arguments);
+						} else {
+							targetData.lastTouch = now;
+						}
+					}
+				};
+
+			})(jQuery);
+			
+			var getPointerEvent = function(event) {
+    return event.originalEvent.targetTouches ? event.originalEvent.targetTouches[0] : event;
+};
+var tapFlag=0;
+var $touchArea = $('header .fa'),
+    touchStarted = false, // detect if a touch event is sarted
+    currX = 0,
+    currY = 0,
+    cachedX = 0,
+    cachedY = 0;
+
+//setting the events listeners
+$touchArea.on('touchstart mousedown',function (e){
+    e.preventDefault(); 
+    var pointer = getPointerEvent(e);
+    // caching the current x
+    cachedX = currX = pointer.pageX;
+    // caching the current y
+    cachedY = currY = pointer.pageY;
+    // a touch event is detected      
+    touchStarted = true;
+    // detecting if after 200ms the finger is still in the same position
+
+    setTimeout(function (){
+        if ((cachedX === currX) && !touchStarted && (cachedY === currY)) {
+					if(tapFlag==1){
+						$(".mobileMenu").hide();
+						tapFlag=0;
+					}
+					else{
+						tapFlag=1
+						$(".mobileMenu").show();
+						$(".insideUl").show();
+					}
+
+        }
+    },200);
+});
+$touchArea.on('touchend mouseup touchcancel',function (e){
+    e.preventDefault();
+    // here we can consider finished the touch event
+    touchStarted = false;
+});
+$touchArea.on('touchmove mousemove',function (e){
+    e.preventDefault();
+    var pointer = getPointerEvent(e);
+    currX = pointer.pageX;
+    currY = pointer.pageY;
+    if(touchStarted) {
+         // here you are swiping
+    }
+   
+});
 
 		
 		$('#creations').on('focusin mouseover', function(e) {
@@ -69,4 +154,14 @@ $( document ).ready(function() {
     }
     e.preventDefault(); // prevent the default action (scroll / move caret)
 });
+
+if(WURFL.form_factor == "Smartphone"){
+	
+    var headerContent=$("header nav").html();
+		$(".mobileMenu").append(headerContent);
+}
+else{
+	$("header .fa").hide();
+}
+
 });

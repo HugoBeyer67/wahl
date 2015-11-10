@@ -344,3 +344,9 @@ b{
 	display:block;
 	text-align: center;
 }
+
+/* Mobile */
+
+.mobileMenu{
+	display: none;
+}
